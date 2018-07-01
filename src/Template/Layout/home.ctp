@@ -8,7 +8,7 @@
     </title>
 
     <!-- Load CSS -->
-    <?= $this->Html->css('https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css') ?>
+    <?= $this->Html->css('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css') ?>
     <?= $this->Html->css('https://use.fontawesome.com/releases/v5.0.6/css/all.css') ?>
     <?= $this->Html->css('style') ?>
     <?= $this->Html->css('normalise') ?>
@@ -23,15 +23,16 @@
     <!-- Fetch files -->
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
-
 </head>
 <body>
     <?= $this->element("nav")?>
     <?= $this->fetch('content') ?>
+    <?= $this->element("Home/index")?>
 </body>
 
 <!-- Load Footer Scripts -->
-<?= $this->Html->script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js') ?>
+<?= $this->Html->script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js') ?>
+<?= $this->Html->script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js') ?>
 <?= $this->Html->script('app') ?>
 
 
