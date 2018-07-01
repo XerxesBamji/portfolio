@@ -13,8 +13,6 @@
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
-/tmp/cache/myapp_cake_routes_route_collection
-/tmp/debug_kit.sqlite
 
 /logs/*
 !/logs/empty
