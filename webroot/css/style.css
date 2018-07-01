@@ -1,0 +1,85 @@
+@font-face {
+font-family: ARDESTINE;
+src: url(webroot/font/ARDESTINE.ttf);
+}
+
+html,
+body {
+  height:100%;
+}
+
+.container {
+  height: 100%;
+}
+
+header.your-header {
+  background: transparent;
+}
+nav#your-menu {
+  color: #fff;
+}
+body {
+  background: #252627;
+}
+
+.title-wrapper h1 {
+  -vendor-animation-duration: 10s;
+  -vendor-animation-delay: 5s;
+  -vendor-animation-iteration-count: infinite;
+  font-size: 3rem;
+}
+
+.title-wrapper span.char1:hover,
+.title-wrapper span.char2:hover,
+.title-wrapper span.char3:hover,
+.title-wrapper span.char4:hover,
+.title-wrapper span.char5:hover,
+.title-wrapper span.char6:hover,
+.title-wrapper span.char7:hover,
+.title-wrapper span.char8:hover,
+.title-wrapper span.char9:hover,
+.title-wrapper span.char10:hover {
+  color: #18ffff;
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
+}
+
+.title-wrapper h2 {
+  color: #18ffff;
+  font-weight: normal;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+}
+
+.contact-button {
+  padding: 8px 18px;
+  border: 1px solid #18ffff;
+  background: transparent;
+  color: #18ffff;
+}
+
+.contact-button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #252627;
+  background: #18ffff;
+  border: 1px solid #18ffff;
+}
+
+.custom-container {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+  padding-right: 5%;
+}
+
+.home-logo {
+  max-width: 585px;
+}
+
+.name {
+  font-size: 15px;
+  font-family: ARDESTINE, sans-serif;
+  letter-spacing: 12px;
+}

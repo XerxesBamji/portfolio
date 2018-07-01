@@ -10,15 +10,22 @@
     <!-- Load CSS -->
     <?= $this->Html->css('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css') ?>
     <?= $this->Html->css('https://use.fontawesome.com/releases/v5.0.6/css/all.css') ?>
-    <?= $this->Html->css('style') ?>
+    <?= $this->Html->css('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i') ?>
+    <?= $this->Html->css('https://fonts.googleapis.com/icon?family=Material+Icons') ?>
+    <?= $this->Html->css('Linearicons-Free-v1.0.0/Desktop-Font/demo-files/demo') ?>
     <?= $this->Html->css('normalise') ?>
     <?= $this->Html->css('slideNav-core.min') ?>
     <?= $this->Html->css('slideNav-demo') ?>
-    <?= $this->Html->css('https://fonts.googleapis.com/icon?family=Material+Icons') ?>
+    <?= $this->Html->css('responsive') ?>
+    <?= $this->Html->css('animate') ?>
+    <?= $this->Html->css('style') ?>
 
 
     <!-- Load Scripts in Head -->
     <?= $this->Html->script('jquery-2.2.4-min.js') ?>
+    <?= $this->Html->script('lettering.js') ?>
+    <?= $this->Html->script('textillate.js') ?>
+    <?= $this->Html->script('tagcanvas.js') ?>
 
     <!-- Fetch files -->
     <?= $this->fetch('meta') ?>
