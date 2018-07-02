@@ -5,5 +5,5 @@ $(function () {
         delayScale: 1,
         delay: 150,
       }
-    });
+  });
 })

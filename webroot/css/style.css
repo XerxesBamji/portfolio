@@ -12,6 +12,7 @@ body {
   height: 100%;
 }
 
+/*SlideNav Overwrites*/
 .open-btn {
   font-size: 2.2em;
 }
@@ -22,6 +23,26 @@ header.your-header {
   margin-top: 25px;
   min-height: auto;
 }
+
+.slideNav__menu_wrap {
+  background-color: #181818;
+  width: 95px;
+  border-left: #181818;
+}
+
+.slideNav__menu_wrap ul.slideNav_ul a.slideNav_link_item {
+  padding: 15px 15px;
+  text-align: center;
+  color: #4d4d4e;
+  font-size: 18px;
+}
+
+.slideNav__menu_wrap .slideNav_top_icon .material-icons {
+    background: transparent;
+    color: #4d4d4e;
+}
+
+/*********/
 
 nav#your-menu {
   color: #fff;
@@ -90,4 +111,19 @@ body {
   font-size: 15px;
   font-family: ARDESTINE, sans-serif;
   letter-spacing: 12px;
+}
+
+.name span.char1:hover,
+.name span.char2:hover,
+.name span.char3:hover,
+.name span.char4:hover,
+.name span.char5:hover,
+.name span.char6:hover,
+.name span.char7:hover,
+.name span.char8:hover,
+.name span.char9:hover,
+.name span.char10:hover {
+  color: #18ffff;
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
 }

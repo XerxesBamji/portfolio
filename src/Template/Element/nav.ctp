@@ -11,32 +11,12 @@
           <i class="material-icons slideNav_close_icon"></i>
         </span>
       </div>
-                <ul class="js__slideNav_ul slideNav_ul">
-                    <li><a href="#" class="slideNav_link_item">Home</a></li>
-        <li class="slideNav_dropdown_item">
-          <a class="js__slideNav_dropdown_switch slideNav_link_item">About Us<span class="slideNav_icon"><i class="material-icons js__slideNav_dropdown_icon slideNav_right_icon"></i></span></a>
-          <ul>
-            <li><a href="#" class="slideNav_link_item">The Team</a></li>
-            <li><a href="#" class="slideNav_link_item">Our Vision</a></li>
-            <li><a href="#" class="slideNav_link_item">Our Mission</a></li>
-          </ul>
-        </li>
-        <li class="slideNav_dropdown_item">
-          <a class="js__slideNav_dropdown_switch slideNav_link_item">Our Services<span class="slideNav_icon"><i class="material-icons js__slideNav_dropdown_icon slideNav_right_icon"></i></span></a>
-          <ul>
-            <li><a href="#" class="slideNav_link_item">Service 1</a></li>
-            <li class="slideNav_dropdown_item">
-              <a class="js__slideNav_dropdown_switch slideNav_link_item">Our Services<span class="slideNav_icon"><i class="material-icons js__slideNav_dropdown_icon slideNav_right_icon"></i></span></a>
-              <ul>
-                <li><a href="#" class="slideNav_link_item">Service 1</a></li>
-                <li><a href="#" class="slideNav_link_item">Service 2</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#" class="slideNav_link_item">Privacy Policy</a></li>
-        <li><a href="#" class="slideNav_link_item">Terms &amp; Conditions</a></li>
-        <li><a href="#" class="slideNav_link_item">Contact Us</a></li>
+      <ul class="js__slideNav_ul slideNav_ul">
+          <li><a href="#" class="slideNav_link_item"><span class="lnr lnr-home"></span></a></li>
+          <li><a href="#" class="slideNav_link_item"><span class="lnr lnr-user"></span></a></li>
+          <li><a href="#" class="slideNav_link_item"><span class="lnr lnr-cog"></span></a></li>
+          <li><a href="#" class="slideNav_link_item"><span class="lnr lnr-eye"></span></a></li>
+          <li><a href="#" class="slideNav_link_item"><span class="lnr lnr-envelope"></span></a></li>
                 </ul>
             </div>
         </nav>
