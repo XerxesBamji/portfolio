@@ -1,8 +1,6 @@
 <header class="your-header">
     <div class="container">
-
         <nav id="your-menu" class="text-right your-menu">
-
             <span class="js__slideNav_open_btn material-icons cursor open-btn">menu</span>
 
             <div class="js__slideNav_menu slideNav__menu_wrap">
