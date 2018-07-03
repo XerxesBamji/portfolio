@@ -15,6 +15,7 @@ body {
 /*SlideNav Overwrites*/
 .open-btn {
   font-size: 2.2em;
+  color: #18ffff;
 }
 
 header.your-header {
@@ -38,15 +39,42 @@ header.your-header {
 }
 
 .slideNav__menu_wrap .slideNav_top_icon .material-icons {
-    background: transparent;
-    color: #4d4d4e;
+  background: transparent;
+  color: #4d4d4e;
 }
 
-/*********/
+.slideNav__menu_wrap ul.slideNav_ul a.slideNav_link_item:hover {
+  background: transparent;
+}
 
 nav#your-menu {
   color: #fff;
 }
+
+.home-link.active span {
+  color: #18ffff;
+}
+
+.slideNav_link_item span.lnr:hover {
+  color: #18ffff;
+}
+
+a.slideNav_link_item:hover, a.slideNav_link_item:focus {
+  box-shadow: 0 1px transparent !important;
+}
+
+.home-link span.home-text,
+.user-link span.user-text,
+.skill-link span.skill-text,
+.folio-link span.folio-text,
+.contact-link span.contact-text   {
+  display: none;
+  font-size: 10px;
+  color: #18ffff;
+}
+/*********/
+
+
 body {
   background: #252627;
 }
