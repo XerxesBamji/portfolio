@@ -15,7 +15,6 @@ body {
 /*SlideNav Overwrites*/
 .open-btn {
   font-size: 2.2em;
-  color: #18ffff;
 }
 
 header.your-header {
@@ -69,8 +68,11 @@ a.slideNav_link_item:hover, a.slideNav_link_item:focus {
 .folio-link span.folio-text,
 .contact-link span.contact-text   {
   display: none;
-  font-size: 10px;
   color: #18ffff;
+  font-size: 9px;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 /*********/
 
@@ -110,11 +112,19 @@ body {
   letter-spacing: 3px;
 }
 
+h2.job-title {
+  color: #8d8d8d ;
+  font-size: 9px;
+}
+
 .contact-button {
   padding: 8px 18px;
   border: 1px solid #18ffff;
   background: transparent;
   color: #18ffff;
+  font-size: 11px;
+  letter-spacing: 4px;
+  border-radius: 2px;
 }
 
 .contact-button:hover {
@@ -123,6 +133,7 @@ body {
   color: #252627;
   background: #18ffff;
   border: 1px solid #18ffff;
+  box-shadow: 0 1px #252627;
 }
 
 .custom-container {

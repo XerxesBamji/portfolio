@@ -2,7 +2,7 @@
     <div class="container">
         <nav id="your-menu" class="text-right your-menu">
             <span class="js__slideNav_open_btn material-icons cursor open-btn">menu</span>
-              <div class="js__slideNav_menu slideNav__menu_wrap">
+              <div class="js__slideNav_menu slideNav__menu_wrap js__slideNav_menu_open">
                 <div class="slideNav_top_buttons">
                   <span class="js__slideNav_close_btn slideNav_top_icon cursor">
                     <i class="material-icons slideNav_close_icon"></i>

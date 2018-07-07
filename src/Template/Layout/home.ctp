@@ -13,6 +13,7 @@
     <?= $this->Html->css('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i') ?>
     <?= $this->Html->css('https://fonts.googleapis.com/icon?family=Material+Icons') ?>
     <?= $this->Html->css('Linearicons-Free-v1.0.0/Desktop-Font/demo-files/demo') ?>
+    <?= $this->Html->css('particles') ?>
     <?= $this->Html->css('normalise') ?>
     <?= $this->Html->css('slideNav-core.min') ?>
     <?= $this->Html->css('slideNav-demo') ?>
@@ -26,6 +27,7 @@
     <?= $this->Html->script('lettering.js') ?>
     <?= $this->Html->script('textillate.js') ?>
     <?= $this->Html->script('tagcanvas.js') ?>
+    <?= $this->Html->script('particles.js') ?>
 
     <!-- Fetch files -->
     <?= $this->fetch('meta') ?>
@@ -40,6 +42,8 @@
 <!-- Load Footer Scripts -->
 <?= $this->Html->script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js') ?>
 <?= $this->Html->script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js') ?>
+<?= $this->Html->script('http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js') ?>
+<?= $this->Html->script('http://threejs.org/examples/js/libs/stats.min.js') ?>
 <?= $this->Html->script('app') ?>
 
 
