@@ -1,4 +1,4 @@
-<section class="homepage-section h-100">
+<section class="about-section h-100">
   <div class="container h-100">
     <div class="row h-100">
       <div class="col-lg-6 col-md-6 col-sm-12 my-auto">

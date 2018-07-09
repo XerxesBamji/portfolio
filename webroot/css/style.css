@@ -50,7 +50,19 @@ nav#your-menu {
   color: #fff;
 }
 
-.home-link.active span {
+.home-link.active span,
+.user-link.active span,
+.skill-link.active span,
+.folio-link.active span,
+.contact-link.active span {
+  color: #18ffff;
+} {
+  color: #18ffff;
+} {
+  color: #18ffff;
+} {
+  color: #18ffff;
+} {
   color: #18ffff;
 }
 

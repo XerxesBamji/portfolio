@@ -9,7 +9,7 @@
                   </span>
                 </div>
                 <ul class="js__slideNav_ul slideNav_ul">
-                    <li><a href="home" class="slideNav_link_item home-link active"><span class="lnr lnr-home"></span><span class="home-text text-uppercase">Home</span></a></li>
+                    <li><a href="home" class="slideNav_link_item home-link"><span class="lnr lnr-home"></span><span class="home-text text-uppercase">Home</span></a></li>
                     <li><a href="about" class="slideNav_link_item user-link"><span class="lnr lnr-user"></span><span class="user-text text-uppercase">About</span></a></li>
                     <li><a href="skills" class="slideNav_link_item skill-link"><span class="lnr lnr-cog"></span><span class="skill-text text-uppercase">Skills</span></a></li>
                     <li><a href="my-work" class="slideNav_link_item folio-link"><span class="lnr lnr-eye"></span><span class="folio-text text-uppercase">My Work</span></a></li>

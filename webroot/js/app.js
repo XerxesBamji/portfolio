@@ -77,3 +77,33 @@ $( ".contact-link span.lnr" ).mouseover(
     $(".contact-link span.lnr").css("display", "none");
   }
 );
+
+if ( $(".homepage-section").length ) {
+  $(".home-link").addClass("active ");
+} else {
+  $(".home-link").removeClass("active ");
+};
+
+if ( $(".about-section").length ) {
+  $(".user-link").addClass("active ");
+} else {
+  $(".user-link").removeClass("active ");
+};
+
+if ( $(".skills-section").length ) {
+  $(".skill-link").addClass("active ");
+} else {
+  $(".skill-link").removeClass("active ");
+};
+
+if ( $(".mywork-section").length ) {
+  $(".folio-link").addClass("active ");
+} else {
+  $(".folio-link").removeClass("active ");
+};
+
+if ( $(".contact-section").length ) {
+  $(".contact-link").addClass("active ");
+} else {
+  $(".contact-link").removeClass("active ");
+};
