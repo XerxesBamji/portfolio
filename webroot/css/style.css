@@ -12,6 +12,76 @@ body {
   height: 100%;
 }
 
+.txt-primary {
+  color: #18ffff !important;
+}
+
+/* input {
+  background: transparent;
+  text-decoration: none;
+  padding: 25px 10px;
+  border: 1px solid #18ffff;
+  margin-bottom: 10px;
+  box-shadow: none;
+}
+
+input:hover {
+  text-decoration: none;
+  box-shadow: none;
+} */
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    border: 0;
+    background: #37393b;
+    height: 50px;
+    font-size: 16px;
+    color: #8d8d8d;
+    padding: 0 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  border: 0;
+  background: #37393b;
+  font-size: 16px;
+  color: #8d8d8d;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  box-shadow: none;
+  margin-bottom: 10px;
+  min-height: 130px;
+}
+
+.form-submit {
+  color: #18ffff;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 7px 19px 10px;
+  border: 1px solid #18ffff;
+  float: left;
+  border-radius: 4px;
+  background: transparent;
+  text-transform: uppercase;
+  float: right;
+  text-align: center;
+  height: 25px;
+  box-shadow: none;
+}
+
+.form-submit:hover {
+  cursor: pointer;
+  box-shadow: none;
+  background: #18ffff;
+  color: #37393b;
+}
+
 /*SlideNav Overwrites*/
 .open-btn {
   font-size: 2.2em;
