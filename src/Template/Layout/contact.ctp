@@ -32,8 +32,8 @@
     <?= $this->fetch('css') ?>
 </head>
 <body>
-    <?= $this->element("nav")?>
     <?= $this->fetch('content') ?>
+    <?= $this->element("nav")?>
     <?= $this->element("contact/index")?>
 </body>
 
