@@ -13,15 +13,10 @@
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
-/tmp/*
-tmp/*
-tmp/debug_kit.sqlite
 tmp/cache/*
 /tmp/debug_kit.sqlite
-/tmp/cache/*
-tmp/debug_kit.sqlite
 /tmp/
-
+/tmp/*
 
 /logs/*
 !/logs/empty
