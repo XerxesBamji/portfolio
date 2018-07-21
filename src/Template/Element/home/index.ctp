@@ -9,7 +9,7 @@
           <h2 class="animated fadeInLeftBig job-title">Front End Web Developer / Designer</h2>
 
           <div class="contact-btn-wrapper animated fadeInLeftBig py-4 text-uppercase">
-            <a href="http://localhost:8888/xerxes-bamji.co.uk/contact.php" class="contact-button mt-5">Contact Me</a>
+            <a href="contact" class="contact-button mt-5">Contact Me</a>
           </div>
         </div>
       </div>
