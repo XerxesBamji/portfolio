@@ -16,6 +16,14 @@ body {
   color: #18ffff !important;
 }
 
+a {
+  box-shadow: none;
+}
+
+a:hover {
+  box-shadow: none;
+}
+
 /* input {
   background: transparent;
   text-decoration: none;
@@ -257,4 +265,10 @@ h2.job-title {
   -ms-transition: all 0.12s ease-out;
   -o-transition: all 0.12s ease-out;
   color: #18ffff;
+}
+
+/*Contact Section*/
+
+.contact-section {
+  font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
