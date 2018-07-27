@@ -42,6 +42,7 @@
 <?= $this->Html->script('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js') ?>
 <?= $this->Html->script('http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js') ?>
 <?= $this->Html->script('http://threejs.org/examples/js/libs/stats.min.js') ?>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5b1ee02f73e0f200114483fb&product=inline-reaction-buttons' async='async'></script>
 <?= $this->Html->script('app') ?>
 
 

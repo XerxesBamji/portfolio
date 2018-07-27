@@ -14,10 +14,9 @@
           <?= $this->Form->end(); ?>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 my-auto pr-2">
-        <?php echo $this->Html->image('rhino.png', array('class' => 'img-responsive animated fadeInRightBig home-logo'));?>
-        <div class="name text-light" data-in-effect="rollIn" >
-          <p>XERXES BAMJI</p>
+      <div class="col-lg-6 col-md-6 col-sm-12 my-auto pr-2 text-center">
+        <div class="sharethis-inline-reaction-buttons"></div>
+        <p class="text-light">Have a spare second? Let me know what you think of my site?</p>
         </div>
       </div>
     </div>
