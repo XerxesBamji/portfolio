@@ -18,6 +18,7 @@
         <div class="sharethis-inline-reaction-buttons"></div>
         <p class="text-light">Have a spare second? Let me know what you think of my site?</p>
         </div>
+        <!-- http://patternico.com/#SIXjVkh2KIAs1MYO -->
       </div>
     </div>
   </div>

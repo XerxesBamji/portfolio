@@ -271,4 +271,6 @@ h2.job-title {
 
 .contact-section {
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #252627 url('../img/bg-icons-dark.png') repeat center;
+  margin-top: -30px;
 }
